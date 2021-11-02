@@ -1,0 +1,2 @@
+export const ADD_ITEM_NOTE = "ADD_ITEM_NOTE";
+export const DELETE_ITEM_NOTE = "DELETE_ITEM_NOTE";

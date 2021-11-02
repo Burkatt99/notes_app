@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: 'Rubik', sans-serif;
+}
+
+.menu .logo img{
+max-width: 20%;
+margin-right: 45%;
+}
+.menu .sett img{
+max-width: 10%;
+margin-top: 10%;
+}
+.sett p{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.sett p:hover {
+  color: #19a3da;
+  cursor: pointer;
+}
