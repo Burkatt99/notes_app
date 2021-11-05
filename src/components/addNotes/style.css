@@ -1,43 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu&display=swap');
-form{
-max-width: 30%;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-margin: 0 0 40px 35%;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu&display=swap");
+form {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 0 40px 35%;
 }
-form input{
-    color: black;
-    width: 100%;
-    height: 25px;
-    border-radius: 8px;
-    border: 1px solid rgb(172, 167, 167);
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    font-size: 13px;
-    padding-left: 15px;
-    margin-bottom: 10px;
+form input {
+  color: black;
+  width: 100%;
+  height: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(172, 167, 167);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 13px;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
-.note{
-    padding-bottom: 30px;
+.note {
+  padding-bottom: 30px;
 }
 input:focus {
-    outline: none;
-  }
-  button {
-    font-family: 'Rubik', sans-serif;
-    width: 70%;
-    background-color: rgb(29, 33, 41);
-    color: rgb(216, 212, 212);
-    margin: 10px 20px 20px 20px;
-    height: 26px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    margin-left: 15%;
-  }
-  button:hover {
-    background-color: #19a3da;
-    color: rgb(29, 33, 41);
-    font-size: 13px;
-    cursor: pointer;
-    border: 0;
-  }
+  outline: none;
+}
+.but {
+  font-family: "Rubik", sans-serif;
+  width: 70%;
+  background-color: rgb(29, 33, 41);
+  color: rgb(216, 212, 212);
+  margin: 10px 20px 20px 20px;
+  height: 26px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 15%;
+}
+.but:hover {
+  background-color: #19a3da;
+  color: rgb(29, 33, 41);
+  font-size: 13px;
+  cursor: pointer;
+  border: 0;
+}
